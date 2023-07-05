@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <h2>Calculator</h2>
+        <div id="label1" class="rows">
+            <label for="num1">Number 1:</label><br>
+            <input type="text" id="num1" value="0"><br>
+        </div>
+        <div id="label2" class="rows">
+            <label for="num2">Number 2:</label><br>
+            <input type="text" id="num2" value="0"><br>
+        </div>
+        <div id="label3" class="rows">
+            <label for="sum">Result:</label><br>
+            <input type="text" id="sum" value="0"  disabled><br><br>
+        </div>
+        <div class="btns">
+            <button onclick="add()" id="btn1" class="main">+</button>
+            <button onclick="sub()" id="btn2" class="main">-</button>
+            <button onclick="mul()" id="btn3" class="main">*</button>
+            <button onclick="div()" id="btn4" class="main">/</button>
+            <button onclick="mod()" id="btn5" class="main">%</button><br>
+            <button onclick="reset()" id="btn6">Reset</button>
+        </div>   
+           
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <div class="container">
+        <label for="txtnum1">Number 1</label><br>
+        <input type="text" id="txtnum1" value="0"><br>
+
+        <label for="txtnum1">Number 2</label><br>
+        <input type="text" id="txtnum2" value="0" ><br>
+
+        <label for="txtsum">Total</label><br>
+        <input type="text" id="txtsum" value="0" disabled><br><br>
+
+        <button value="add" onclick="add()">Add</button>
+        <button value="sub">Sub</button>
+        <button value="mul">Mul</button>
+        <button value="divide">Divide</button>
+        <button value="mod">Mod</button><br><br>
+        <button value="reset" onclick="reset()">RESET</button>-->
+    <script src="script.js">
+        
+    </script>
+</body>
+</html>
